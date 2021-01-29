@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>FormWizard_v4</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- DATE-PICKER -->
+		<link rel="stylesheet" href="vendor/date-picker/css/datepicker.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="image-holder">
+				<img src="images/form-wizard.png" alt="">
+			</div>
+            <form action="">
+            	<div class="form-header">
+            		<a href="#">Bitmed Clients</a>
+            		<h3>Register</h3>
+            	</div>
+            	<div id="wizard">
+            		<!-- Basic Details -->
+	                <h4></h4>
+	                <section>
+						<!-- Full Name -->
+						<div class="form-row">
+	                    	<label for="">
+	                    		Full Name:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<input type="text" class="form-control">
+	                    	</div>
+						</div>
+						<!-- Email Address -->
+						<div class="form-row">
+	                    	<label for="">
+	                    		Email Address:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<input type="email" class="form-control">
+	                    	</div>
+						</div>
+							<!-- Phone -->
+						<div class="form-row">
+	                    	<label for="">
+	                    		Phone:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<input type="tel" class="form-control">
+	                    	</div>
+						</div>
+					
+						<!-- Password -->
+						<div class="form-row">
+							<label for="">
+								Password:
+							</label>
+							<div class="form-holder">
+								<input type="password" class="form-control">
+							</div>
+						</div>
+	                    
+						<!-- Account Type -->
+	                    <div class="form-row">
+	                    	<label for="">
+	                    		Account Type:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<select name="" id="" class="form-control">
+									<option value="Individual" class="option">Individual</option>
+									<option value="Family" class="option">Family</option>
+								</select>
+								<i class="zmdi zmdi-caret-down"></i>
+	                    	</div>
+	                    </div>	
+	             	
+	                	
+	                </section>
+	                
+					<!-- Other Details -->
+	                <h4></h4>
+	                <section>
+	                    <div class="form-row">
+	                    	<label for="">
+	                    		Date of Birth:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<input type="text" class="form-control datepicker-here" data-language='en' data-date-format="dd - mm - yyyy" id="dp1">
+	                    	</div>
+	                    </div>	
+	                    <!-- Postal Address -->
+						<div class="form-row">
+	                    	<label for="">
+	                    		Postal Address:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<input type="text" class="form-control">
+	                    	</div>
+						</div>
+						<!-- Location -->
+						<div class="form-row">
+	                    	<label for="">
+	                    		Location:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<input type="text" class="form-control">
+	                    	</div>
+						</div>
+						<!-- Gender	 -->
+	                    <div class="form-row" style="margin-bottom: 50px;">
+	                    	<label for="">
+	                    		Gender:
+	                    	</label>
+	                    	<div class="form-holder">
+	                    		<div class="checkbox-circle">
+									<label class="male">
+										<input type="radio" name="gender" value="male" checked> Male<br>
+										<span class="checkmark"></span>
+									</label>
+									<label class="female">
+										<input type="radio" name="gender" value="female"> Female<br>
+										<span class="checkmark"></span>
+									</label>
+								</div>
+	                    	</div>
+						</div>	
+						
+	                    <div class="checkbox-circle" style="margin-bottom: 48px;">
+							<label>
+								<input type="checkbox" checked>I agree all statement in Terms & Conditions
+								<span class="checkmark"></span>
+							</label>
+						</div>	
+	                </section>
+
+	                
+	               
+            	</div>
+            </form>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		
+		<!-- JQUERY STEP -->
+		<script src="js/jquery.steps.js"></script>
+
+		<!-- DATE-PICKER -->
+		<script src="vendor/date-picker/js/datepicker.js"></script>
+		<script src="vendor/date-picker/js/datepicker.en.js"></script>
+
+		<script src="js/main.js"></script>
+<!-- Template created and distributed by Colorlib -->
+</body>
+</html>
